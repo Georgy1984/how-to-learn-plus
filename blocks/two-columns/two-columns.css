@@ -1,0 +1,14 @@
+.two-columns {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+
+
+}
+
+
+/*width: 80%;
+  display: flex;
+	justify-content: space-between;*/
