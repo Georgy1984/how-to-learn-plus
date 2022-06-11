@@ -1,16 +1,25 @@
 .video__iframes {
-  position: absolute;
-  top: 120px;
-  width: 1050px;
-  height: 316px;
-  left: 0;
-  right: 0;
-  margin: auto;
   display: flex;
-  flex-direction: row;
-  margin-top: 50px;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 0 none;
+  position: relative;
+  padding-top: 0;
+  bottom: -50px;
+
+
+
+
+
+
+
+
+
 
 }
+
+
+
 
 
 
