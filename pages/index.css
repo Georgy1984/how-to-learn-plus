@@ -1,9 +1,9 @@
 /* Подключили стили отвечающие за глобальные настройки страниц, */
 /* настройки текстовой работы в редакторе,                      */
 /* вращение элементов                                           */
-@import url(./vendor/normalize.css);
-@import url(./vendor/fonts.css);
-@import url(/pages/pages.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/rotation/rotation.css);
 /****************************************************************/
 

@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="First project with Yandex">
   <meta name="keywords" content="HTML5, CSS, БЭМ">
   <meta name="author" content="Georgy Abramov">
-
-  <link rel="stylesheet"    href="pages/index.css">
-
-
+  <link rel="stylesheet"    href="./pages/index.css">
   <title>Научиться учиться</title>
-
 </head>
-
 <body>
-  <div class="pages">
+  <div class="page">
 	<!-- Шапка страницы -->
 	<header class="header">
       <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Лого Яндекс Практикум">
@@ -26,13 +20,10 @@
       <div class="header__square-pic rotation"></div>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Мальчик.Собака">
 	 </header>
-
 	<!-- Старт основного блока content вкл в себя все секции исключая блок footer -->
    	<!-- В основом при создании страницы применялись семантические теги: [section => для разграничения основных блоков страницы], [ul => для создания списков], [div => для создания блочных элментов] -->
    	<!-- [article => для обозначения секций где текст удобнее представить ввиде "ленты"], [nav => навигация], [span => для строчных элементов] -->
-
-   <main class="content">
-
+  <main class="content">
 		<!-- Начало дочернего блока description, родительский content -->
         <section class="description">
 				<article class="two-columns">
@@ -44,9 +35,6 @@
 					</div>
 				</article>
         </section>
-
-
-
 		<!-- Начало блока techniques, родительский content -->
 		<section class="techniques" id="techniques-link">
 				<h2 class="section-title">Техники обучения</h2>
@@ -79,18 +67,16 @@
 					</div>
 				</div>
 		</section>
-
 		<!-- Начало блока video, родительский content -->
 		<section class="video">
-				<h2 class="section-title">Видео нa TED</h2>
-				<h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
+				<h2 class="section-title">Видео нa TED<h2/>
+				<p class="section-subtitle">Для тех, кто любит прокрастинировать<p/>
 				<div class="video__iframes">
 					<iframe class="video__iframe"  src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
 					<iframe class="video__iframe"  src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
 				</div>
 		</section>
-
-      	<!-- Начало блока oakley, родительский content -->
+   	<!-- Начало блока oakley, родительский content -->
 		<section class="oakley">
 				<article class="two-columns">
         	<h2 class="two-columns__brief">История Барбары Оакли.</h2>
@@ -99,14 +85,12 @@
 					</div>
 				</article>
 		</section>
-
 		<!-- Начало блока feynman, родительский content -->
       	<section class="feynman">
       	<h2 class="feynman__title">Метод Фейнмана</h2>
       	<p class="feynman__subtitle">Выучить и не забыть.</p>
 				<a class="feynman__link"  target="_blank" href="#">Подробнее&rarr;</a>
       	</section>
-
 	  	<!-- Начало блока dijits, родительский content -->
       	<section class="digits">
 				<h2 class="section-title">Цифры и факты</h2>
@@ -148,13 +132,12 @@
 					</li>
 				</ul>
       </section>
-
-      	<!-- Начало блока khan, родительский content -->
+      <!-- Начало блока khan, родительский content -->
 		<section class="khan">
 					<div class="khan__container">
 						<p class="khan__author">Салман Хан</p>
-						<h1 class="khan__title">Весь мир — школа</h1>
-						<p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+						<h2 class="khan__title">Весь мир — школа</h2>
+						<blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
 						<p class="khan__quote-author">Джордж Лукас</p>
 						<p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
 						<div class="khan__book-container">
@@ -162,7 +145,6 @@
 						</div>
 					</div>
 		</section>
-
 		<!-- Начало блока kaufman, родительский content -->
       	<section class="kaufman">
 				<div class="kaufman__triangle rotation"></div>
@@ -211,7 +193,6 @@
 					</li>
 				</ul>
 		</section>
-
 		<!-- Начало блока resources, родительский content -->
 		<section class="resources">
 				<h2 class="section-title">Полезные ресурсы</h2>
@@ -223,9 +204,8 @@
 					<a  target="_blank" href="#"><img class="resources__logo" src="./images/resources_logo/resources-polka.svg" alt="Лого ПОЛКА"></a>
 				</div>
 		</section>
-
 	</main>
-	<!-- Старт блока footer -->
+  	<!-- Старт блока footer -->
     <footer class="footer">
 			<div class="footer__columns">
 				<div class="footer__column footer__column_content_copyright">
@@ -269,7 +249,5 @@
 			</div>
     </footer>
   </div>
-
-
 </body>
 </html>
